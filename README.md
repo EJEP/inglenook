@@ -10,8 +10,8 @@ For example:
 
 ```
 $ python inglenook.py 533 HAA ZKV IEA MLA YMO clam rudd HTA
-The target order is: 
-['ZKV', 'HAA', 'MLA', 'HTA', 'rudd']
+The target order is: ['ZKV', 'HAA', 'MLA', 'HTA', 'rudd']
+
 The starting setup is:
 Long siding:         ['rudd', 'HTA', 'ZKV', 'YMO', 'IEA']
 First short siding:  ['clam', 'MLA']

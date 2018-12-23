@@ -109,8 +109,7 @@ def get_target(wagons, inglenook_type):
     else:
         target = sample(wagons, 5)
 
-    print("The target order is: ")
-    print(target)
+    print("The target order is: " + str(target) + '\n')
 
 def main():
 

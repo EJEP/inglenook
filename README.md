@@ -4,8 +4,16 @@ A python script to generate start and end arrangements for the [inglenook shunti
 
 ## Usage ##
 
-Currently the code is command-line only. The program is run as: `python inglenook2.py 322` or `python inglenook2.py 533` followed by a list of the wagons to be arranged.
+Currently the code is command-line only. The program is run as: `python inglenook.py 322` or `python inglenook.py 533` followed by a list of the wagons to be arranged.
 
 For example:
 
-```python inglenook2.py 533 HAA ZKV IEA MLA YMO clam rudd HTA```
+```
+$ python inglenook.py 533 HAA ZKV IEA MLA YMO clam rudd HTA
+The target order is: 
+['ZKV', 'HAA', 'MLA', 'HTA', 'rudd']
+The starting setup is:
+Long siding:         ['rudd', 'HTA', 'ZKV', 'YMO', 'IEA']
+First short siding:  ['clam', 'MLA']
+Second short siding: ['HAA']
+```
